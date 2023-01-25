@@ -20,7 +20,7 @@ y = df[["Sales"]] #reading column for y
 x = np.array(x) #array for x values
 y = np.array(y) #array for y values
 
-model = Sequential([Dense(units = x.shape[1], activation = "relu"), #the actual actitecture has the be improved on. I made this as a base template
+model = Sequential([Dense(units = x.shape[1], activation = "relu"),
                     Dense(units = 100, activation = "relu"),
                     Dense(units = 50, activation = "relu"),
                     Dense(units = 25, activation = "relu"),
